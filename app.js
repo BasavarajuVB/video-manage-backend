@@ -20,7 +20,7 @@ app.use(express.json());
 
 // CORS middleware
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://video-management-two.vercel.app',
     credentials: true
   }));
 
